@@ -11,6 +11,7 @@
         <!-- Needed for allure-maven-plugin to specify report version -->
         <allure.version>1.5.2</allure.version>
         <aspectj.version>1.8.4</aspectj.version>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
     <name>Allure Cucumber-JVM with JUnit Example</name>
@@ -20,7 +21,7 @@
         <dependency>
             <groupId>ru.yandex.qatools.allure</groupId>
             <artifactId>allure-cucumber-jvm-adaptor</artifactId>
-            <version>1.6.2</version>
+            <version>1.6.3</version>
         </dependency>
         <dependency>
             <groupId>ru.stqa.selenium</groupId>
